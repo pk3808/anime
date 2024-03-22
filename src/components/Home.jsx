@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import bg from "../assets/bg.png";
-import goku from "../assets/goku.png";
+// import goku from "../assets/goku.png";
 import luffy from "../assets/luffy.png";
 import naruto from "../assets/naruto.png";
 import logo from "../assets/logo.png";
 
-const images = [goku, luffy, naruto];
+const images = [ luffy, naruto];
 const intervalTime = 4000;
 
 const styles = {

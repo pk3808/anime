@@ -75,7 +75,7 @@ function AnimeCard({ anime }) {
                     {animeItem.title}
                   </h1>
                 </div>
-                <hr style={{ margin: "0" }} />
+                {/* <hr style={{ margin: "0" }} /> */}
               </div>
             );
           })

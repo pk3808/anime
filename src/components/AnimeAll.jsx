@@ -32,7 +32,12 @@ function AnimeAll() {
   return (
     <div style={styles}>
       <div className="absolute top-0 w-full flex  items-center px-4 py-2">
-        <img className="w-[6%] h-[6%]" src={logo} alt="Logo" />
+      <button className="w-[6%] h-[6%]">
+            <Link to="/" >
+            <img  src={logo} alt="Logo" />
+            </Link>
+          </button>
+        
         <input
           onChange={(e)=>setSearch(e.target.value)}
           type="search"
@@ -40,11 +45,7 @@ function AnimeAll() {
           className="px-4 py-2 ml-[30%] w-[15%] bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-blue-500 text-white"
         />
         <div>
-        <button className="ml-4">
-            <Link to="/" className="text-black">
-              Home
-            </Link>
-          </button>
+      
         </div>
       </div>
       <div className="mt-[12%] ml-6 flex flex-wrap justify-center ">
